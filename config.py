@@ -9,7 +9,7 @@ ADMIN_ID = 809727326  # Замените на свой ID
 
 # ID канала для отправки расписания
 CHANNEL_ID = -1003770552885  # Замените на свой ID канала
-CHANNEL_LINK = "https://t.me/makanovtsy"  # Замените на ссылку на ваш канал
+CHANNEL_LINK = "https://t.me/maria_master_tgk"  # Замените на ссылку на ваш канал
 
 # Параметры расписания
 WORK_START_HOUR = 10  # Начало работы (часы)
@@ -31,3 +31,4 @@ PRICES = {
 
 # Ссылка на портфолио
 PORTFOLIO_LINK = "https://teletype.in/@maria_master_rnd/Ht4pfWnVers"
+
