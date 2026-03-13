@@ -568,7 +568,7 @@ async def my_bookings(callback: CallbackQuery, state: FSMContext, bot):
             )
         except:
             await callback.message.edit_caption(
-                text=message_text,
+                caption=message_text,
                 reply_markup=get_my_bookings_keyboard(has_booking=True),
                 parse_mode="HTML"
             )
@@ -633,6 +633,7 @@ async def send_reminder(user_id: int, time: str, bot):
         )
     except Exception as e:
         logger.error(f"Ошибка при отправке напоминания: {e}")
+
 
 
 
